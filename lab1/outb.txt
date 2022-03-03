@@ -1,0 +1,3 @@
+First argument as integer number: 13
+Second argument as integer number: 12
+First argument 13 is greater then second argument 12

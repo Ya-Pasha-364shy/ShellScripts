@@ -1,0 +1,4 @@
+Script's name: scriptA.sh
+Value of first argument: aaa
+Value of second argument: aaa
+Arguments are equal !
