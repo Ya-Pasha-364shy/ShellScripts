@@ -1,0 +1,14 @@
+/var/log/alternatives.log
+/var/log/apport.log
+/var/log/auth.log
+/var/log/boot.log
+/var/log/bootstrap.log
+/var/log/dnf.librepo.log
+/var/log/dnf.log
+/var/log/dnf.rpm.log
+/var/log/dpkg.log
+/var/log/fontconfig.log
+/var/log/gpu-manager.log
+/var/log/hawkey.log
+/var/log/kern.log
+/var/log/ubuntu-advantage.log
